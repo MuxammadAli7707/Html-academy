@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', 'Arial', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.info {
+    padding: 95px 0px 125px 0px;
+    background-image: url('https://assets.htmlacademy.ru/img/icons/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.info-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    width: 847px;
+    background-color: #2e2c9c;
+    padding: 30px 35px;
+    margin-bottom: 14px;
+}
+
+.item-heading {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.item-text {
+    font-size: 16px;
+    color: #fff;
+}
+
+.item-first::before {
+    content: '';
+    width: 160px;
+    height: 88px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+.item-first:hover {
+    background-color: #000;
+}
+
+.item-second::before {
+    content: '';
+    width: 160px;
+    height: 88px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+.item-second:hover {
+    background-color: #000;
+}
+
+.item-third::before {
+    content: '';
+    width: 160px;
+    height: 88px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+.item-third:hover {
+    background-color: #000;
+}
